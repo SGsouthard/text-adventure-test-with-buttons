@@ -1,5 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
@@ -31,9 +32,13 @@ body {
 
 .btn {
     background-color: hsl(200,100%,50%);
-    border: 1px solid hsl(200,100%,50%);
+    border: 1px solid hsl(200,100%,40%);
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
     outline: none;
+}
+
+.btn:hover {
+    border-color: black;
 }
